@@ -1,0 +1,48 @@
+.header-back {
+    background-image: url("../images/image_merc.png");
+    background-size: cover;
+    height: 300px;
+}
+
+.content-container {
+    background-color: #F0F0F0;
+}
+
+.content-position {
+    background-color: white;
+    border-radius: 20px;
+    width: 950px!important;
+    position: relative;
+    top: -85px;
+}
+
+.position-bottom {
+    padding-right: 15px;
+}
+
+.btn-home {
+    border-radius: 20px!important;
+}
+
+.reset_button {
+    display: flex;
+    cursor: pointer;
+}
+
+.dropdown {
+    padding: 0 0 0 50px!important;
+}
+
+.cards {
+    margin-top: -50px!important;
+}
+
+.title-position {
+    position: relative;
+    left: 25px;
+}
+
+.cards-position {
+    position: relative;
+    left: 27px;
+}
