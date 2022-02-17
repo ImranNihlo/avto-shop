@@ -57,9 +57,13 @@
 }
 
 .card_profile {
-    margin-left: 5px;
+    margin-left: 5%;
 }
 
 .card {
     border-radius: 1vw!important;
+}
+
+.card-icon {
+    cursor: pointer;
 }

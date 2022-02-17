@@ -1,5 +1,5 @@
 import React from 'react'
-import icons from '../images/arrow-down-circle-fill.svg'
+import bookmark from '../images/btn_bookmark_on.svg'
 import audi from '../images/audi-q5-fyb.jpg'
 import profile from "../images/img_profile.jpg"
 import beginner from "../images/icon_beginner.png"
@@ -9,9 +9,9 @@ function Card (props) {
     <div className="col">
       <div className="card">
         <div className='row align-self-end pt-3 pb-3'>
-          <p className="card-text">
-            Out Front
-            <img src={icons} alt='icons' className='px-2'/>
+          <p>
+            Upload date: 2021.11.29
+            <img src={bookmark} alt='bookmark' className='px-2 card-icon'/>
           </p>
         </div>
         <img src={audi} className="card-img-top" alt="audi"/>
