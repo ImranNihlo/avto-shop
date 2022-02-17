@@ -1,6 +1,6 @@
 import React from 'react'
-import audi from "../../images/audi-q5-fyb.jpg";
-import icons from "../../images/arrow-down-circle-fill.svg"
+import audi from "./images/audi-q5-fyb.jpg";
+import icons from "./images/arrow-down-circle-fill.svg"
 import Card from './components/Card'
 
 function Cards (props) {

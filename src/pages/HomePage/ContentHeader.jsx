@@ -1,5 +1,5 @@
 import React from 'react'
-import power from "../../images/power.svg"
+import power from "./images/power.svg"
 
 function ContentHeader (props) {
   return (

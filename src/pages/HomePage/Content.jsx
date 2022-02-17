@@ -12,7 +12,7 @@ function Content (props) {
               <h2>Total 14</h2>
             </div>
             <div className="dropdown col-3">
-              <a className="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+              <a className="btn btn-secondary btn-title dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
                  data-bs-toggle="dropdown" aria-expanded="false">
                 Dropdown link
               </a>

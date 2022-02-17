@@ -2,7 +2,7 @@ import React from 'react'
 
 function Sidebar (props) {
   return (
-    <div className='row col-2'>
+    <div className='row col-2 sidebar'>
       <div className="accordion accordion-flush" id="accordionFlushExample">
         <div className="accordion-item">
           <h2 className="accordion-header" id="flush-headingOne">
@@ -35,9 +35,9 @@ function Sidebar (props) {
             <div className="accordion-body">
               <div className="form-check">
                 <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                  <label className="form-check-label" htmlFor="flexCheckDefault">
-                    Default checkbox
-                  </label>
+                <label className="form-check-label" htmlFor="flexCheckDefault">
+                  Default checkbox
+                </label>
               </div>
             </div>
             <div className="accordion-body">

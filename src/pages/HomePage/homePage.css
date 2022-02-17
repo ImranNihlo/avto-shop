@@ -1,5 +1,5 @@
 .header-back {
-    background-image: url("../images/image_merc.png");
+    background-image: url("./images/image_merc.png");
     background-size: cover;
     height: 300px;
 }
@@ -10,10 +10,14 @@
 
 .content-position {
     background-color: white;
-    border-radius: 20px;
-    width: 950px!important;
+    border-radius: 1vw;
+    width: 62vw!important;
     position: relative;
     top: -85px;
+}
+
+.content-position, .card, .accordion-item {
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2);
 }
 
 .position-bottom {
@@ -21,7 +25,7 @@
 }
 
 .btn-home {
-    border-radius: 20px!important;
+    border-radius: 2vw!important;
 }
 
 .reset_button {
@@ -45,4 +49,17 @@
 .cards-position {
     position: relative;
     left: 27px;
+}
+
+.btn-title {
+    background-color: #FFFFFF!important;
+    color: #000000!important;
+}
+
+.card_profile {
+    margin-left: 5px;
+}
+
+.card {
+    border-radius: 1vw!important;
 }
