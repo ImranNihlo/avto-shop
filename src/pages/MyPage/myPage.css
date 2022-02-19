@@ -1,0 +1,43 @@
+input[type="date"] {
+    position: relative;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    color: transparent;
+    background: transparent;
+}
+
+.width-date {
+    width: 10vw!important;
+}
+
+.period-top {
+    padding-top: 0.9vw!important;
+}
+
+.period-width {
+    width: 1vw!important;
+    margin-right: 0.7vw!important;
+}
+
+.width-button {
+    width: 5vw!important;
+    margin-left: 1vw!important;
+    border-radius: 0.7vw!important;
+}
+
+.padding-title {
+    padding-left: 1.3vw!important;
+}
+
+.hr-line {
+    width: 61vw!important;
+    margin-left: 2vw!important;
+}
