@@ -14,23 +14,40 @@ function Find (props) {
               <form>
                 <div className="text-start fw-bold">
                   <label htmlFor="exampleInputEmail1" className="form-label">E-mail</label>
-                  <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
-                  <button type="button" className="btn btn-primary btn-sm btn-position radius-1v">
-                    <span className='btn-span'>
-                      SEND
-                    </span>
-                  </button>
+                  <div className="row justify-content-between m-0 border-row rounded">
+                    <div className="col-10 p-0">
+                      <input type="email" className="form-control border-0"
+                             id="exampleInputEmail1"
+                             aria-describedby="emailHelp"/>
+                    </div>
+                    <div className="col-2 pt-2 p-0">
+                      <button type="button" className="btn btn-primary btn-sm radius-1v">
+                        SEND
+                      </button>
+                    </div>
+                  </div>
                 </div>
                 <div className="text-start fw-bold">
                   <label htmlFor="exampleInputPassword1" className="form-label">Verification code</label>
-                  <input type="password" className="form-control" id="exampleInputPassword1"/>
-                  <button type="button" className="btn btn-primary btn-sm btn-position radius-1v">
-                    <span className='btn-span'>
-                      VERIFY
-                    </span>
-                  </button>
+                  <div className="row justify-content-between m-0 border-row rounded">
+                    <div className="col-10 p-0">
+                      <input type="email" className="form-control border-0"
+                             id="exampleInputEmail1"
+                             aria-describedby="emailHelp"/>
+                    </div>
+                    <div className="col-2 pt-2 p-0">
+                      <button type="button" className="btn btn-primary btn-sm radius-1v">
+                        VERIFY
+                      </button>
+                    </div>
+                  </div>
                 </div>
-                <button type="submit" className="btn btn-primary w-100 radius-2v blue mt-5 mb-5 fw-bold height">
+                <div className="form-check mb-3 mt-3 p-0">
+                  <small id="emailHelp" className="form-text text-danger">
+                    Your password should include at least one special character.
+                  </small>
+                </div>
+                <button type="submit" className="btn btn-primary w-100 radius-2v blue mb-5 fw-bold height">
                   NEXT
                 </button>
               </form>

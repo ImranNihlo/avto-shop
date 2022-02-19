@@ -1,6 +1,5 @@
 .container-fluid {
     background-color: #F0F0F0;
-    height: 45vw;
 }
 
 .col-center {
@@ -42,15 +41,7 @@ span {
 }
 
 .btn-position {
-    position: relative;
-    bottom: 37px;
-    left: 21vw;
-    height: 23px;
-}
-
-.btn-span {
-    position: relative;
-    bottom: 4px;
+    margin-right: 1px;
 }
 
 input, .height {
@@ -63,4 +54,17 @@ input, .height {
 
 .bi {
     margin-bottom: -14%;
+}
+
+.file-input {
+    height: 2vw;
+    width: 8.4vw;
+}
+
+.form-profile {
+    border: 0.1vw solid #0b5ed7;
+}
+
+.border-row {
+    border: 0.1vw solid #ced4da;
 }

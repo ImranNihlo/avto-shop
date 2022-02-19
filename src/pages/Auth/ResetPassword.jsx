@@ -17,14 +17,19 @@ function ResetPassword (props) {
             <div className='col-8'>
               <form>
                 <div className="text-start fw-bold mb-3">
-                  <label htmlFor="exampleInputEmail1" className="form-label">Password</label>
-                  <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+                  <label htmlFor="exampleInputPassword1" className="form-label">Password</label>
+                  <input type="password" className="form-control" id="exampleInputPassword1"/>
                 </div>
                 <div className="text-start fw-bold">
                   <label htmlFor="exampleInputPassword1" className="form-label">Retype password</label>
                   <input type="password" className="form-control" id="exampleInputPassword1"/>
                 </div>
-                <button type="submit" className="btn btn-primary w-100 radius-2v blue mt-5 mb-5 fw-bold height">
+                <div className="form-check mb-3 mt-5 p-0">
+                  <small id="emailHelp" className="form-text text-danger">
+                    Your password should include at least one special character.
+                  </small>
+                </div>
+                <button type="submit" className="btn btn-primary w-100 radius-2v blue mb-5 fw-bold height">
                   SUBMIT
                 </button>
               </form>
