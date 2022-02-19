@@ -1,7 +1,7 @@
 .header-back {
     background-image: url("./images/image_merc.png");
     background-size: cover;
-    height: 300px;
+    height: 19vw;
 }
 
 .content-container {
@@ -13,7 +13,7 @@
     border-radius: 1vw;
     width: 62vw!important;
     position: relative;
-    top: -85px;
+    top: -6vw;
 }
 
 .content-position, .card, .accordion-item {
@@ -21,7 +21,7 @@
 }
 
 .position-bottom {
-    padding-right: 15px;
+    padding-right: 1vw;
 }
 
 .btn-home {
@@ -33,22 +33,19 @@
     cursor: pointer;
 }
 
-.dropdown {
-    padding: 0 0 0 50px!important;
-}
-
 .cards {
-    margin-top: -50px!important;
+    margin-top: -3vw!important;
 }
 
-.title-position {
+.row-position {
+    width: 94vw;
     position: relative;
-    left: 25px;
+    left: 3%;
 }
 
 .cards-position {
     position: relative;
-    left: 27px;
+    left: 3%;
 }
 
 .btn-title {

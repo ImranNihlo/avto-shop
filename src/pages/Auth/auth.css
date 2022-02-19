@@ -1,0 +1,66 @@
+.container-fluid {
+    background-color: #F0F0F0;
+    height: 45vw;
+}
+
+.col-center {
+    background-color: #FFFFFF;
+}
+
+.back-red {
+    background-color: red;
+    width: 12%!important;
+    color: #FFFFFF;
+}
+
+.red {
+    padding: 1%;
+    cursor: pointer;
+}
+
+.radius-2v {
+    border-radius: 2vw!important;
+}
+
+.radius-1v {
+    border-radius: 1vw!important;
+}
+
+.back-blue {
+   background-color: #0d6efd!important;
+    width: 12%!important;
+    color: #FFFFFF;
+}
+
+.blue {
+    padding: 1%;
+    cursor: pointer;
+}
+
+span {
+    cursor: pointer;
+}
+
+.btn-position {
+    position: relative;
+    bottom: 37px;
+    left: 21vw;
+    height: 23px;
+}
+
+.btn-span {
+    position: relative;
+    bottom: 4px;
+}
+
+input, .height {
+    height: 3vw;
+}
+
+.text-start-top {
+    padding-top: 1%!important;
+}
+
+.bi {
+    margin-bottom: -14%;
+}

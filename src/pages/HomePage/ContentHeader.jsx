@@ -32,15 +32,13 @@ function ContentHeader (props) {
       </div>
       <hr />
       <div className="row justify-content-end align-items-baseline position-bottom">
-        <div className="col-1 reset_button">
-          <div className='col-4'>
+        <div className="col-2 row text-end">
+          <p>
             <img src={power} alt="power"/>
-          </div>
-          <div className='col-4'>
-            <p>RESET</p>
-          </div>
+            Reset
+          </p>
         </div>
-        <div className="col-1">
+        <div className="col-1 text-end p-0">
           <button type="button" className="btn btn-primary btn-home">Search</button>
         </div>
       </div>

@@ -5,13 +5,13 @@ import Cards from './Cards'
 function Content (props) {
   return (
     <div className='container-fluid justify-content-between'>
-      <div className='row justify-content-center'>
-        <div className='col-8 title-position'>
+      <div className='row justify-content-center row-position'>
+        <div className='col-8'>
           <div className='row justify-content-between'>
-            <div className='col-2'>
+            <div className='col'>
               <h2>Total 14</h2>
             </div>
-            <div className="dropdown col-3">
+            <div className="dropdown col-3 text-end">
               <a className="btn btn-secondary btn-title dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
                  data-bs-toggle="dropdown" aria-expanded="false">
                 Dropdown link
