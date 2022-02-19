@@ -15,12 +15,12 @@ function Find (props) {
                 <div className="text-start fw-bold">
                   <label htmlFor="exampleInputEmail1" className="form-label">E-mail</label>
                   <div className="row justify-content-between m-0 border-row rounded">
-                    <div className="col-10 p-0">
+                    <div className="col-9 p-0">
                       <input type="email" className="form-control border-0"
                              id="exampleInputEmail1"
                              aria-describedby="emailHelp"/>
                     </div>
-                    <div className="col-2 pt-2 p-0">
+                    <div className="col-3 pt-2 p-0 text-center">
                       <button type="button" className="btn btn-primary btn-sm radius-1v">
                         SEND
                       </button>
@@ -30,12 +30,12 @@ function Find (props) {
                 <div className="text-start fw-bold">
                   <label htmlFor="exampleInputPassword1" className="form-label">Verification code</label>
                   <div className="row justify-content-between m-0 border-row rounded">
-                    <div className="col-10 p-0">
+                    <div className="col-9 p-0">
                       <input type="email" className="form-control border-0"
                              id="exampleInputEmail1"
                              aria-describedby="emailHelp"/>
                     </div>
-                    <div className="col-2 pt-2 p-0">
+                    <div className="col-3 pt-2 p-0 m-0 text-center">
                       <button type="button" className="btn btn-primary btn-sm radius-1v">
                         VERIFY
                       </button>
