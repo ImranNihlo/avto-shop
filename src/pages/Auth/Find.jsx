@@ -20,7 +20,7 @@ function Find (props) {
                              id="exampleInputEmail1"
                              aria-describedby="emailHelp"/>
                     </div>
-                    <div className="col-3 pt-2 p-0 text-center">
+                    <div className="col-3 align-self-center text-center">
                       <button type="button" className="btn btn-primary btn-sm radius-1v">
                         SEND
                       </button>
@@ -35,7 +35,7 @@ function Find (props) {
                              id="exampleInputEmail1"
                              aria-describedby="emailHelp"/>
                     </div>
-                    <div className="col-3 pt-2 p-0 m-0 text-center">
+                    <div className="col-3 align-self-center m-0 text-center">
                       <button type="button" className="btn btn-primary btn-sm radius-1v">
                         VERIFY
                       </button>

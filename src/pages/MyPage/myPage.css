@@ -28,7 +28,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .width-button {
-    width: 5vw!important;
     margin-left: 1vw!important;
     border-radius: 0.7vw!important;
 }
