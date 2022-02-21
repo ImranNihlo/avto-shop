@@ -5,11 +5,14 @@ import SignUp from '../pages/Auth/SignUp'
 import Home from '../pages/HomePage/Index'
 import MyPage from '../pages/MyPage/MyPage'
 import Payment from '../pages/MyPage/Payment/Payment'
+import "./app.css"
+import Subscription from '../pages/MyPage/Subscription/Subscription'
+import FreePeriod from '../pages/MyPage/FreePeriod/FreePeriod'
 
 function App() {
   return (
-    <div>
-      <Payment />
+    <div className="container-fluid">
+      <MyPage />
     </div>
   );
 }

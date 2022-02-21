@@ -1,0 +1,20 @@
+.font-size {
+    font-size: 0.7vw!important;
+}
+
+.font-size-title {
+    font-size: 3.5vw!important;
+}
+
+.subscription-border {
+    box-shadow: 0 0.5vw 1vw 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.subscription-border:active {
+    box-shadow: 0 0.5vw 1vw #0b5ed7;
+}
+
+.subscription-right {
+    margin-right: 1.5vw!important;
+}
