@@ -33,28 +33,13 @@
     cursor: pointer;
 }
 
-.cards {
-    margin-top: -3vw!important;
-}
-
-.row-position {
-    width: 94vw;
-    position: relative;
-    left: 3%;
-}
-
-.cards-position {
-    position: relative;
-    left: 3%;
-}
-
 .btn-title {
     background-color: #FFFFFF!important;
     color: #000000!important;
 }
 
-.card_profile {
-    margin-left: 5%;
+.cards {
+    margin-left: 1vw!important;
 }
 
 .card {
@@ -63,4 +48,31 @@
 
 .card-icon {
     cursor: pointer;
+}
+
+.dropdown-right {
+    padding-right: 1.5vw!important;
+}
+
+.title-left {
+    padding-left: 1.5vw!important;
+}
+
+.popup {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    border-radius: 1vw!important;
+}
+
+.popup-body {
+    position: relative;
+    top: 40%;
+}
+
+.careful {
+    width: 5vw!important;
 }
