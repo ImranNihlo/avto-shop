@@ -1,9 +1,9 @@
 import React from 'react'
+import careful from '../../../HomePage/images/bancirclelinear_106171.png'
 import bmw from '../../../HomePage/images/peredniy-bamper-m3-e92-1000x750.jpg'
 import Rating from '../../../HomePage/components/Rating'
-import "../myProjectCompact.css"
 
-function CardVertical (props) {
+function CardVerticalDeleted (props) {
   return (
     <div className="col-8">
       <div className="row justify-content-start border bg-light radius-1v pt-3 pb-3 shadow mb-3 rel">
@@ -36,10 +36,18 @@ function CardVertical (props) {
           <p className="m-0">
             Saved date: 2021.12.24
           </p>
+          <div className="popup-project">
+            <div className="row justify-content-center popup-body-project text-white text-center">
+              <img src={careful} alt='careful' className="careful"/>
+              <h6 className="text-danger mt-2">
+                DELETED BY UPLOADER
+              </h6>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   )
 }
 
-export default CardVertical
+export default CardVerticalDeleted

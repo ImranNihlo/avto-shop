@@ -1,7 +1,8 @@
 import React from 'react'
 import "./myHistory.css"
-import MyHistoryHeader from './MyHistoryHeader'
-import CardHistory from './CardHistory'
+import MyHistoryHeader from './components/MyHistoryHeader'
+import CardHistory from './components/CardHistory'
+import ModalHistory from './components/ModalHistory'
 
 function MyHistory (props) {
   return (
@@ -14,6 +15,9 @@ function MyHistory (props) {
         &#10053; The history storage period is one year from  the plotting date.
       </h5>
       <CardHistory />
+      <CardHistory />
+      <CardHistory />
+      <ModalHistory />
     </div>
   )
 }

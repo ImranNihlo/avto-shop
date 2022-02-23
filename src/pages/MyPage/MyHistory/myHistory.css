@@ -1,3 +1,58 @@
 .write {
     margin-right: 0.3vw;
 }
+
+.write-review {
+    cursor: pointer;
+}
+
+.bmw-img {
+    width: 100%;
+}
+
+.vr-line {
+    margin: 0 0.5vw 0 0.5vw!important;
+}
+
+.card-title-margin {
+    margin-left: 1.5vw;
+}
+
+.font-block {
+    font-size: 13px;
+}
+
+.radius-1v {
+    border-radius: 1vw!important;
+}
+
+.width-rayting {
+    width: 1vw;
+    height: 5vw;
+    background-color: red;
+}
+
+.vr-width {
+    width: 0.7vw!important;
+    height: 4vw!important;
+}
+
+.vr-height-5 {
+    height: 85%;
+    margin-top: 0.7vw;
+}
+
+.vr-height-4 {
+    height: 70%;
+    margin-top: 1.3vw;
+}
+
+.vr-height-3 {
+    height: 55%;
+    margin-top: 1.9vw;
+}
+
+.vr-height-2 {
+    height: 40%;
+    margin-top: 2.5vw;
+}

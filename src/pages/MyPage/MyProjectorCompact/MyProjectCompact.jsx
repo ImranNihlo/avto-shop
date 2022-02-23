@@ -2,6 +2,8 @@ import React from 'react'
 import "./myProjectCompact.css"
 import MyProjectCompactheader from './components/MyProjectCompactheader'
 import CardVertical from './components/CardVertical'
+import CardVerticalAction from './components/CardVerticalAction'
+import CardVerticalDeleted from './components/CardVerticalDeleted'
 
 function MyProjectCompact (props) {
   return (
@@ -14,8 +16,8 @@ function MyProjectCompact (props) {
         'BMW Msport' PATTERN ASSET LIST
       </h5>
       <CardVertical />
-      <CardVertical />
-      <CardVertical />
+      <CardVerticalAction />
+      <CardVerticalDeleted />
     </div>
   )
 }

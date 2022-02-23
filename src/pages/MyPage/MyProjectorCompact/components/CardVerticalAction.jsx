@@ -1,9 +1,8 @@
 import React from 'react'
 import bmw from '../../../HomePage/images/peredniy-bamper-m3-e92-1000x750.jpg'
 import Rating from '../../../HomePage/components/Rating'
-import "../myProjectCompact.css"
 
-function CardVertical (props) {
+function CardVerticalAction (props) {
   return (
     <div className="col-8">
       <div className="row justify-content-start border bg-light radius-1v pt-3 pb-3 shadow mb-3 rel">
@@ -36,10 +35,20 @@ function CardVertical (props) {
           <p className="m-0">
             Saved date: 2021.12.24
           </p>
+          <div className="popup-project">
+            <div className="row justify-content-center popup-body-project text-white text-center m-0">
+              <div>
+                <button type="button" className="btn btn-primary mb-3 w-25">OPEN IN EDITOR</button>
+              </div>
+              <div>
+                <button type="button" className="btn btn-danger w-25">DELETE</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   )
 }
 
-export default CardVertical
+export default CardVerticalAction
