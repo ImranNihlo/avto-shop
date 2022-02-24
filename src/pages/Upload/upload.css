@@ -1,0 +1,26 @@
+.height {
+    height: 3vw!important;
+    padding-top: 0.6vw!important;
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.sidebar-border-top {
+    border-top-right-radius: 1vw!important;
+    border-top-left-radius: 1vw!important;
+}
+
+.sidebar-border-bottom {
+    border-bottom-right-radius: 1vw!important;
+    border-bottom-left-radius: 1vw!important;
+}
+
+.radius-2v {
+    border-radius: 2vw!important;
+}
