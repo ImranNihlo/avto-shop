@@ -7,11 +7,16 @@ import MyHistory from '../pages/MyPage/MyHistory/MyHistory'
 import CardVertical from '../pages/MyPage/MyProjectCompact/components/CardVertical'
 import Upload from '../pages/Upload'
 import SellPattern from '../pages/Upload/SellPattern'
+import UploadPattern from '../pages/Upload/UploadPattern'
+import SignUp from '../pages/Auth/SignUp'
+import Find from '../pages/Auth/Find'
+import RegisterNewCar from '../pages/Upload/RegisterNewCar'
 
 function App() {
   return (
     <div className="container-fluid">
-      <SellPattern />
+      <UploadPattern />
+      <RegisterNewCar />
     </div>
   );
 }
