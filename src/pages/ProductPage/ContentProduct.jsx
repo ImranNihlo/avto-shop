@@ -4,6 +4,7 @@ import beginner from '../HomePage/images/icon_beginner.png'
 import bookmark from '../HomePage/images/btn_bookmark_on.svg'
 import audi from '../HomePage/images/audi-q5-fyb.jpg'
 import ProductCard from './ProductCard'
+import Rating from '../HomePage/components/Rating'
 
 function ContentProduct (props) {
   return (
@@ -16,12 +17,12 @@ function ContentProduct (props) {
           Out Front - Bumper
         </h3>
         <p>
-          Rating
+          <Rating />
         </p>
         <div className='row justify-content-between'>
           <div className='col-2'>
             <img src={profile} alt='profile'/>
-            <span className='card_profile'>
+            <span className='card_profile mx-2'>
               By name
             </span>
           </div>
@@ -34,7 +35,7 @@ function ContentProduct (props) {
                 <path
                   d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
               </svg>
-              <span className='card_profile'>
+              <span className='card_profile mx-2'>
               60 Reviews
             </span>
             </div>
@@ -44,7 +45,7 @@ function ContentProduct (props) {
                 <path fill-rule="evenodd"
                       d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
               </svg>
-              <span className='card_profile'>
+              <span className='card_profile mx-2'>
               158 Downloads
               </span>
             </div>

@@ -8,7 +8,7 @@ import Rating from './Rating'
 
 function Card (props) {
   return (
-      <div className="col-4 mb-4">
+      <div className="col-4 mb-4 px-2">
         <div className="card-body bg-light card">
           <div className='row text-end'>
             <p>
@@ -34,13 +34,13 @@ function Card (props) {
           <div className='row justify-content-between m-0'>
             <div className='col'>
               <img src={profile} alt='profile'/>
-              <span className='card_profile'>
+              <span className='card_profile mx-2'>
               By name
             </span>
             </div>
-            <div className='col'>
+            <div className='col text-end'>
               <img src={beginner} alt='beginner'/>
-              <span className='card_profile'>
+              <span className='card_profile mx-2'>
               Beginner
             </span>
             </div>

@@ -3,13 +3,13 @@ import "./productPage.css"
 import Navbar from './Navbar'
 import ContentProduct from './ContentProduct'
 
-function Index (props) {
+function ProductPage (props) {
   return (
-    <div className='container-fluid product-container'>
+    <div className='container-fluid product-container pb-5'>
       <Navbar />
       <ContentProduct />
     </div>
   )
 }
 
-export default Index
+export default ProductPage

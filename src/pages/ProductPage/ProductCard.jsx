@@ -5,7 +5,7 @@ import audi from '../HomePage/images/audi-q5-fyb.jpg'
 function ProductCard (props) {
   return (
     <div className='row justify-content-between m-0'>
-      <div className='col-7 product-card border card-radius'>
+      <div className='col-7 bg-light border card-radius'>
         <div className='text-sm-end pt-3 pb-5'>
           <p>
             Upload date: 2021.11.29
@@ -14,8 +14,8 @@ function ProductCard (props) {
         </div>
         <img src={audi} className="card-img-top" alt="audi"/>
       </div>
-      <div className='col-5 border product-card card-right p-0 card-radius'>
-        <p className='pt-3 pb-3 m-0 fw-bold product-card-title'>
+      <div className='col-5 border bg-light card-right p-0 card-radius'>
+        <p className='pt-3 pb-3 m-0 fw-bold px-4'>
           Description
         </p>
         <ul className="list-group">
@@ -39,7 +39,7 @@ function ProductCard (props) {
           20 Credit
         </h4>
         <hr className='mb-0'/>
-        <p className='pt-3 pb-2 m-0 fw-bold product-card-title'>
+        <p className='pt-3 pb-2 m-0 fw-bold px-4'>
           Tag
         </p>
         <div className='row justify-content-start tags'>

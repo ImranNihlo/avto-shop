@@ -22,16 +22,8 @@
     background-color: #F0F0F0;
 }
 
-.product-card {
-    background-color: #FFFFFF;
-}
-
 .cart-icon {
     cursor: pointer;
-}
-
-.product-card-title {
-    padding-left: 6%;
 }
 
 .title-text {

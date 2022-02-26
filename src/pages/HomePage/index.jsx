@@ -4,7 +4,7 @@ import Content from './Content'
 import ContentHeader from './ContentHeader'
 import "./homePage.css"
 
-function Index (props) {
+function HomePage (props) {
   return (
     <div className='content-container'>
       <BackGround />
@@ -14,4 +14,4 @@ function Index (props) {
   )
 }
 
-export default Index
+export default HomePage
