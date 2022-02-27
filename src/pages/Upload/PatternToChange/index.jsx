@@ -2,7 +2,7 @@ import React from 'react'
 import PatternToChangeHeader from './components/PatternToChangeHeader'
 import UploadCategory from '../UploadPattern/components/UploadCategory'
 import PricePerArea from '../UploadPattern/components/PricePerArea'
-import Pattern from './components/Pattern'
+import PatternToChangeCenter from './components/PatternToChangeCenter'
 import UploadFile from '../UploadPattern/components/UploadFile'
 import UploadBottom from '../UploadPattern/components/UploadBottom'
 import UploadFileChange from './components/UploadFileChange'
@@ -16,7 +16,7 @@ function PatternToChange (props) {
         <div className="col bg-light border radius-1v px-4 pt-4 mt-5 pb-4">
           <UploadCategory />
           <div className="row justify-content-center mt-5 border radius-1v mx-1 pb-5">
-            <Pattern />
+            <PatternToChangeCenter />
             <PricePerArea />
             <UploadFileChange />
             <UploadBottom />

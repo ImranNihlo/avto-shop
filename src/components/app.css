@@ -1,3 +1,11 @@
 .container-fluid {
     background-color: #F0F0F0;
 }
+
+.radius-1v {
+    border-radius: 1vw!important;
+}
+
+.radius-2v {
+    border-radius: 2vw!important;
+}

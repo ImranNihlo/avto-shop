@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Pattern (props) {
+function PatternToChangeCenter (props) {
   return (
     <div className="row justify-content-between pt-3 pb-3 border-bottom">
       <div className="col align-self-center">
@@ -19,4 +19,4 @@ function Pattern (props) {
   )
 }
 
-export default Pattern
+export default PatternToChangeCenter
