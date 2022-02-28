@@ -1,8 +1,6 @@
 import React from 'react'
 import bmw from '../../../HomePage/images/peredniy-bamper-m3-e92-1000x750.jpg'
 import Rating from '../../../HomePage/components/Rating'
-import VerticalRating from './VerticalRating'
-import ModalHistory from './ModalHistory'
 
 function CardHistory (props) {
   return (

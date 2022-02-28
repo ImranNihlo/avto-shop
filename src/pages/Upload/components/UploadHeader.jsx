@@ -7,7 +7,7 @@ function UploadHeader (props) {
         SELL PATTERN
       </h2>
       <hr/>
-      <div className="row justify-content-between mx-1">
+      <div className="row justify-content-between mx-0">
         <div className="btn-group bg-light p-0" role="group" aria-label="Basic checkbox toggle button group">
           <input type="checkbox" className="btn-check" id="btncheck1" autoComplete="off"/>
           <label className="btn btn-outline-primary border height" htmlFor="btncheck1">

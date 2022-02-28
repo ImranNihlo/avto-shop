@@ -52,3 +52,7 @@
 .tags-size {
     font-size: 70%!important;
 }
+
+.border-title {
+    border-radius: 1vw 1vw 0 0;
+}
