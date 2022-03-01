@@ -12,7 +12,7 @@ function SellPatternCredits (props) {
     <div className="row justify-content-center pt-5 pb-5">
       <UploadHeader />
       <DropdownList />
-      <div className="row justify-content-center col-8 p-0 border fw-bold bg-light radius-1v mt-3">
+      <div className="row justify-content-center col-8 p-0 border fw-bold bg-light radius-1v mt-3 shadow">
         <div className="row p-0 bg-colors border-title pt-3 pb-3">
           <div className="col-1">
 

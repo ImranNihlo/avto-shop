@@ -9,7 +9,7 @@ function SellPatternEarnings (props) {
   return (
     <div className="row justify-content-center pt-5">
       <UploadHeader />
-      <div className="row justify-content-between col-8 bg-light border radius-1v shadow">
+      <div className="row justify-content-between col-8 bg-light border radius-1v shadow mb-5">
         <div className="col row justify-content-between">
           <div className="col pt-4 pb-4">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -65,8 +65,13 @@ function SellPatternEarnings (props) {
           </div>
         </div>
       </div>
-      <PeriodInquiry />
-      <div className="row col-8 border p-0 fw-bold mt-4 mb-4 radius-1v bg-light">
+      <div className="row justify-content-center col-8 p-0">
+        <h4 className="fw-bold p-0 mb-3">
+          PERIOD INQUIRY
+        </h4>
+        <PeriodInquiry />
+      </div>
+      <div className="row col-8 border p-0 fw-bold mt-4 mb-4 radius-1v bg-light shadow">
         <div className="row p-0 mx-0 pt-3 pb-3 mx-0 bg-colors border-title">
           <div className="col-2 px-5">
             Date

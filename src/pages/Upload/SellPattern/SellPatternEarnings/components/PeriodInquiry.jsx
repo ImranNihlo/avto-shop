@@ -3,10 +3,7 @@ import "../../../../MyPage/myPage.css"
 
 function PeriodInquiry (props) {
   return (
-    <div className="row justify-content-center col-8 p-0 mt-5">
-      <h4 className="fw-bold p-0 mb-3">
-        PERIOD INQUIRY
-      </h4>
+    <>
       <hr className="m-0"/>
       <div className="row justify-content-between bg-light border-bottom border-top pt-3 pb-2">
         <div className="col align-self-center">
@@ -50,7 +47,7 @@ function PeriodInquiry (props) {
           </button>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 

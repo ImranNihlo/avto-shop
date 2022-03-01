@@ -1,12 +1,12 @@
 import "./app.css"
-import SellPatternEarnings from '../pages/Upload/SellPattern/SellPatternEarnings'
-import SellPatternCredits from '../pages/Upload/SellPattern/SellPatternCredits'
+import TransactionHistory from '../pages/Upload/TransactionHistory'
+import ProfitDetails from '../pages/Upload/ProfitDetails'
 
 function App() {
   return (
     <div className="container-fluid">
-      <SellPatternEarnings />
-      <SellPatternCredits />
+      <TransactionHistory />
+      <ProfitDetails />
     </div>
   );
 }

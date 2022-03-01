@@ -56,3 +56,10 @@
 .border-title {
     border-radius: 1vw 1vw 0 0;
 }
+
+.bg-dropdown {
+    background-color: #FFFFFF!important;
+}
+.font-size-14 {
+    font-size: 14px;
+}
