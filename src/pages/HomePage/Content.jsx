@@ -4,7 +4,7 @@ import Cards from './Cards'
 
 function Content (props) {
   return (
-    <div className='container-fluid justify-content-between'>
+    <div className='container-fluid'>
       <div className='row justify-content-center row-position'>
         <div className='col-8'>
           <div className='row justify-content-between'>
@@ -23,15 +23,15 @@ function Content (props) {
           </div>
         </div>
       </div>
-     <div className='row justify-content-between'>
-       <Sidebar />
-       <div className="col-8 row justify-content-between cards">
-         <Cards />
-       </div>
-       <div className='col-2'>
+      <div className='row justify-content-between'>
+        <Sidebar />
+        <div className="col-8 row justify-content-between cards">
+          <Cards />
+        </div>
+        <div className='col-2'>
 
-       </div>
-     </div>
+        </div>
+      </div>
     </div>
   )
 }

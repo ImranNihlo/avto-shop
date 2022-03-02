@@ -5,7 +5,7 @@ import "../upload.css"
 
 function ProfitDetails (props) {
   return (
-    <div className="row justify-content-center pt-5">
+    <div className="row justify-content-center pt-5 pb-5">
       <UploadHeader />
       <h5 className="col-8 text-start fw-bold p-0 mb-3">
         PROFIT WITHDRAWAL DETAILS

@@ -1,12 +1,10 @@
 import "./app.css"
-import TransactionHistory from '../pages/Upload/TransactionHistory'
-import ProfitDetails from '../pages/Upload/ProfitDetails'
+import UltraFitShop from '../pages/UltraFitShop'
 
 function App() {
   return (
     <div className="container-fluid">
-      <TransactionHistory />
-      <ProfitDetails />
+      <UltraFitShop />
     </div>
   );
 }

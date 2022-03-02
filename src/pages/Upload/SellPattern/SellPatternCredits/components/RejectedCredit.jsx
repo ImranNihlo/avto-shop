@@ -5,7 +5,7 @@ function RejectedCredit (props) {
   return (
     <div className="row p-0 border-top pt-2 pb-2">
       <div className="col-2">
-        <img src={bmw} alt="bmw"/>
+        <img src={bmw} alt="bmw" className="w-100"/>
       </div>
       <div className="col-4 align-self-center p-0">
         CANADA & USA > 2020 > Mercedes BENZ > GLC COUPE > AMG GLC 43

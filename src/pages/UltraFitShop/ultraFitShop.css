@@ -1,0 +1,21 @@
+.ultra-fit-shop-back {
+    background-image: url("./Images/img_banner@3x.jpg");
+    background-size: cover;
+    height: 19vw;
+}
+
+.ultra-position {
+    position: relative;
+    bottom: 2.5vw;
+}
+
+.card-radius {
+    border-radius: 1vw 1vw 0 0;
+}
+
+.col-width {
+    width: 15%;
+    position: relative;
+    left: 79%;
+    bottom: 39%;
+}

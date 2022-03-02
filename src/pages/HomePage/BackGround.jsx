@@ -2,7 +2,7 @@ import React from 'react'
 
 function BackGround (props) {
   return (
-    <div className="container-fluid header-back">
+    <div className="header-back">
 
     </div>
   )
