@@ -1,10 +1,12 @@
 import "./app.css"
-import UltraFitShop from '../pages/UltraFitShop'
+import SellPatternCredits from '../pages/Upload/SellPattern/SellPatternCredits'
+import SellPatternEarnings from '../pages/Upload/SellPattern/SellPatternEarnings'
 
 function App() {
   return (
     <div className="container-fluid">
-      <UltraFitShop />
+      <SellPatternCredits />
+      <SellPatternEarnings />
     </div>
   );
 }

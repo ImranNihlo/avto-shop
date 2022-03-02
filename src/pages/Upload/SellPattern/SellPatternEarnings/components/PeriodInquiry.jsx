@@ -7,32 +7,24 @@ function PeriodInquiry (props) {
       <hr className="m-0"/>
       <div className="row justify-content-between bg-light border-bottom border-top pt-3 pb-2">
         <div className="col align-self-center">
-          <div className="row justify-content-between mx-1">
-            <div className="btn-group bg-light p-0" role="group" aria-label="Basic checkbox toggle button group">
-              <input type="checkbox" className="btn-check" id="btncheck11" autoComplete="off"/>
-              <label className="btn btn-outline-primary border" htmlFor="btncheck11">
-                All
-              </label>
+          <div className="row justify-content-between mx-1 mb-1">
+            <div className="col-2 text-center border start-radius pt-2 pb-2 cursor">
+              All
+            </div>
+            <div className="col-2 text-center border-top border-bottom pt-2 pb-2 cursor">
+              Today
+            </div>
+            <div className="col-2 text-center border pt-2 pb-2 cursor">
+              Week
+            </div>
+            <div className="col-2 border-top border-bottom pt-2 pb-2 px-2 upload-header-active cursor">
+              1Month
+            </div>
+            <div className="col-2 border end-radius pt-2 pb-2 px-2 cursor">
+              3Month
+            </div>
+            <div className="col-2">
 
-              <input type="checkbox" className="btn-check" id="btncheck12" autoComplete="off"/>
-              <label className="btn btn-outline-primary border" htmlFor="btncheck12">
-                Today
-              </label>
-
-              <input type="checkbox" className="btn-check" id="btncheck13" autoComplete="off"/>
-              <label className="btn btn-outline-primary border" htmlFor="btncheck13">
-                Week
-              </label>
-
-              <input type="checkbox" className="btn-check" id="btncheck14" autoComplete="off"/>
-              <label className="btn btn-outline-primary border" htmlFor="btncheck14">
-                1Month
-              </label>
-
-              <input type="checkbox" className="btn-check" id="btncheck15" autoComplete="off"/>
-              <label className="btn btn-outline-primary border" htmlFor="btncheck15">
-                3Month
-              </label>
             </div>
           </div>
         </div>

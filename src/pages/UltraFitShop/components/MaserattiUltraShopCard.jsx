@@ -18,7 +18,7 @@ function MaserattiUltraShopCard (props) {
           <button type="button" className="btn btn-outline-primary w-100 radius-1v fw-bold">BUY</button>
         </div>
       </div>
-      <div className="border col-width rounded-circle shadow bg-light">
+      <div className="border col-width rounded-circle shadow bg-light cursor">
         <img src={cart} alt="cart" className="pt-2 pb-2 px-2"/>
       </div>
     </div>
