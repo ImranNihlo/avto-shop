@@ -1,8 +1,5 @@
 import React from 'react'
 import "./ultraFitShop.css"
-import BmwUltraShopCard from './components/BmwUltraShopCard'
-import MercedesUltraShopCard from './components/MercedesUltraShopCard'
-import MaserattiUltraShopCard from './components/MaserattiUltraShopCard'
 import ContentUltraFitShop from './components/ContentUltraFitShop'
 import DropdownUltraFitShop from './components/DropdownUltraFitShop'
 
