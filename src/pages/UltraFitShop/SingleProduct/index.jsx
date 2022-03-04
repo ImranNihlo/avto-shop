@@ -4,6 +4,7 @@ import "./singleProduct.css"
 import "../../Upload/upload.css"
 import Review from './Review'
 import SingleProductRightBlock from './components/SingleProductRightBlock'
+import Information from './Information'
 
 function SingleProduct (props) {
   return (
@@ -22,6 +23,7 @@ function SingleProduct (props) {
           Reviews
         </div>
       </div>
+      {/*<Information />*/}
       <Review />
     </div>
   )

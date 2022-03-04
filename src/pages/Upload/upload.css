@@ -71,6 +71,10 @@
     font-size: 13px;
 }
 
+.font-size-11 {
+    font-size: 11px;
+}
+
 .start-radius {
     border-radius: 1vw 0 0 1vw;
 }

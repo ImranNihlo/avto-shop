@@ -23,7 +23,6 @@ function Review (props) {
             </textarea>
           </div>
         </div>
-        {/*<hr/>*/}
         <div className="col-12 border-top mt-3 pt-3">
           <p className="fw-bold px-4 m-0">
             Reviews (15)

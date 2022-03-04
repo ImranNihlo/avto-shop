@@ -1,10 +1,10 @@
 import "./app.css"
-import SingleProduct from '../pages/UltraFitShop/SingleProduct'
+import Order from '../pages/UltraFitShop/Order'
 
 function App() {
   return (
     <div className="container-fluid">
-      <SingleProduct />
+      <Order />
     </div>
   );
 }
