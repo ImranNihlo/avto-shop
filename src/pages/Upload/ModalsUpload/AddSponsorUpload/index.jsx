@@ -1,6 +1,5 @@
 import React from 'react'
 import "../modalsUpload.css"
-import PayPalButton from '../../../MyPage/Subscription/components/PayPalButton'
 import paypal from '../../../MyPage/Payment/Images/2381291.png'
 
 function AddSponsorUpload (props) {

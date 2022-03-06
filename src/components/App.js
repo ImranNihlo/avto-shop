@@ -1,10 +1,12 @@
 import "./app.css"
-import Order from '../pages/UltraFitShop/Order'
+import OrderHistory from '../pages/UltraFitShop/OrderHistory'
+import OrderDetailsModal from '../pages/UltraFitShop/OrderHistory/OrderDetailsModal'
 
 function App() {
   return (
     <div className="container-fluid">
-      <Order />
+      <OrderHistory />
+      <OrderDetailsModal />
     </div>
   );
 }
