@@ -1,5 +1,5 @@
 import React from 'react'
-import "../../upload.css"
+import "../uploadPattern.css"
 
 function UploadFile (props) {
   return (

@@ -1,6 +1,4 @@
 import React from 'react'
-import x7 from "../Images/x7.jpg"
-import mers from "../Images/g-class.jpg"
 import "../../Upload/ModalsUpload/modalsUpload.css"
 import "../../Upload/upload.css"
 import OrderHistoryHeader from './components/OrderHistoryHeader'

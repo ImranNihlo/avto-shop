@@ -1,0 +1,10 @@
+.management-header-active {
+    background-color: #0d6efd;
+    color: #FFFFFF;
+}
+
+.arrow-management {
+    position: relative;
+    bottom: 2.3vw;
+    left: 24vw;
+}

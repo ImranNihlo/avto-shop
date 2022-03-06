@@ -1,9 +1,11 @@
 import React from 'react'
+import "./auth.css"
+import "./signUp.css"
 
 function SignUp (props) {
   return (
     <div className='row justify-content-center'>
-      <div className='col-5 col-center mt-5 text-center radius-1v'>
+      <div className='col-5 bg-light mt-5 text-center radius-1v'>
         <h2 className='mt-5 fw-bold'>
           SIGN UP
         </h2>
@@ -16,7 +18,7 @@ function SignUp (props) {
           <div className='col-8'>
             <div className='form-group text-start mb-3'>
               <label htmlFor="exampleInputEmail1" className="form-label fw-bold">Profile</label>
-              <form className="form-profile">
+              <form className="border border-primary">
                 <div className="row m-0 mt-3 mb-3">
                   <div className='col-3'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" fill="currentColor"
@@ -49,7 +51,7 @@ function SignUp (props) {
             <form>
               <div className="text-start fw-bold">
                 <label htmlFor="exampleInputEmail1" className="form-label">E-mail</label>
-                <div className="row justify-content-between m-0 border-row rounded">
+                <div className="row justify-content-between m-0 border rounded">
                   <div className="col-9 p-0">
                     <input type="email" className="form-control border-0"
                            id="exampleInputEmail1"
@@ -69,7 +71,7 @@ function SignUp (props) {
               </div>
               <div className="text-start fw-bold">
                 <label htmlFor="exampleInputPassword1" className="form-label">Verification code</label>
-                <div className="row justify-content-between m-0 border-row rounded">
+                <div className="row justify-content-between m-0 border rounded">
                   <div className="col-9 p-0">
                     <input type="email" className="form-control border-0"
                            id="exampleInputEmail1"
@@ -221,7 +223,7 @@ function SignUp (props) {
                 <div className="form-group">
                   <label htmlFor="exampleInputEmail1" className="form-label">Country</label>
                   <form>
-                    <select id="inputState" className="form-control">
+                    <select id="inputState" className="form-control height">
                       <option selected>Выбрать...</option>
                       <option>Sweden</option>
                       <option>Canada</option>

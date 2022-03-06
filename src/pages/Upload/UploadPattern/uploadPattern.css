@@ -1,0 +1,22 @@
+.custom-file-input {
+    color: transparent;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.custom-file-input::before {
+    content: 'UPLOAD';
+    color: #007bff;
+    display: inline-block;
+    border: 1px solid #007bff;
+    border-radius: 2vw;
+    padding: 0.3vw 2vw;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 12pt;
+}

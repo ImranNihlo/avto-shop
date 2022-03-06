@@ -13,3 +13,31 @@
 .cursor {
     cursor: pointer;
 }
+
+.height {
+    height: 3vw!important;
+}
+
+.start-radius {
+    border-radius: 1vw 0 0 1vw;
+}
+
+.end-radius {
+    border-radius: 0 1vw 1vw 0;
+}
+
+.line-height {
+    line-height: 1vw;
+}
+
+.bg-colors {
+    background-color: #c9e5e8;
+}
+
+.border-title {
+    border-radius: 1vw 1vw 0 0;
+}
+
+.font-size-14 {
+    font-size: 14px;
+}

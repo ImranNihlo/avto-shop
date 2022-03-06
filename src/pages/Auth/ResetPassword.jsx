@@ -3,7 +3,7 @@ import React from 'react'
 function ResetPassword (props) {
   return (
     <div className='row justify-content-center'>
-      <div className='col-5 col-center mt-5 text-center radius-1v'>
+      <div className='col-5 bg-light mt-5 text-center radius-1v'>
         <h2 className='mt-5 fw-bold'>
           RESET PASSWORD
         </h2>
