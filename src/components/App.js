@@ -1,10 +1,10 @@
 import "./app.css"
-import PersonalInformationManagement from '../pages/UltraFitShop/PersonalInformationManagement'
+import BonusCredit from '../pages/MyPage/BonusCredit'
 
 function App() {
   return (
     <div className="container-fluid">
-      <PersonalInformationManagement />
+      <BonusCredit />
     </div>
   );
 }

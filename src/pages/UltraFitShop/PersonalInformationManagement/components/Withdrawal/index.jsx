@@ -1,4 +1,5 @@
 import React from 'react'
+import ModalWithdrawal from './ModalWithdrawal'
 
 function Withdrawal (props) {
   return (

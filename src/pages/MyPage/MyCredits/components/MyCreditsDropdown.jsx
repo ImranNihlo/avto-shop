@@ -1,10 +1,10 @@
 import React from 'react'
 
-function DropdownList (props) {
+function MyCreditsDropdown (props) {
   return (
-    <div className="row justify-content-end col-8 p-0">
-      <div className="btn-group col-2 p-0 border">
-        <button type="button" className="btn btn-light">All</button>
+    <div className="row justify-content-end col-8 p-0 mt-5 mb-4">
+      <div className="btn-group col-3 p-0 border">
+        <button type="button" className="btn btn-light">Credits Charged (Pattern)</button>
         <button type="button" className="btn btn-light dropdown-toggle dropdown-toggle-split"
                 data-bs-toggle="dropdown" aria-expanded="false">
           <span className="visually-hidden">Переключатель выпадающего списка</span>
@@ -20,4 +20,4 @@ function DropdownList (props) {
   )
 }
 
-export default DropdownList
+export default MyCreditsDropdown

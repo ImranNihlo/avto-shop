@@ -3,13 +3,13 @@ import PersonalInformationManagementHeader from './PersonalInformationManagement
 import "../../Upload/ModalsUpload/modalsUpload.css"
 import "../../Auth/signUp.css"
 import "./personalInformationManagement.css"
-import EditPersonalInformation from './components/EditPersonalInformation'
+import Withdrawal from './components/Withdrawal'
 
 function PersonalInformationManagement (props) {
   return (
     <div className="row justify-content-center pt-5 pb-5">
       <PersonalInformationManagementHeader />
-      <EditPersonalInformation />
+      <Withdrawal />
     </div>
   )
 }
