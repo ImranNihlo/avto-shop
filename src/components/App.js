@@ -1,10 +1,10 @@
 import "./app.css"
-import BonusCredit from '../pages/MyPage/BonusCredit'
+import MyCredits from '../pages/MyPage/MyCredits'
 
 function App() {
   return (
     <div className="container-fluid">
-      <BonusCredit />
+      <MyCredits />
     </div>
   );
 }

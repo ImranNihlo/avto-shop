@@ -1,8 +1,8 @@
 import React from 'react'
 import "./myCredits.css"
-import PeriodInquiry from '../../Upload/SellPattern/SellPatternEarnings/components/PeriodInquiry'
 import MyCreditsDropdown from './components/MyCreditsDropdown'
 import CreditHistoryTable from './components/CreditHistoryTable'
+import MyCreditsPeriodInquiry from './components/MyCreditsPeriodInquiry'
 
 function MyCredits (props) {
   return (
@@ -17,7 +17,7 @@ function MyCredits (props) {
         <h5 className="fw-bold p-0 mb-3">
           MY CREDIT: <span className="text-primary">7,695</span> Credit
         </h5>
-        <PeriodInquiry />
+        <MyCreditsPeriodInquiry />
       </div>
       <MyCreditsDropdown />
       <CreditHistoryTable />
